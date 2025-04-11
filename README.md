@@ -64,12 +64,13 @@ python manage.py createsuperuser
 
 # Start development server
 python manage.py runserver
+```
 
 ---
 
 ## 🔐 Admin Access
 
-Visit: `http://127.0.0.1:8000/admin`
+Visit: `http://127.0.0.1:8000/admin`  
 Login with the credentials from your `createsuperuser` step.
 
 Use the admin panel to:
@@ -77,4 +78,3 @@ Use the admin panel to:
 - Add Instructors, Courses, Lessons
 - Create Questions and multiple Choices
 - Enroll users manually for testing
-```
